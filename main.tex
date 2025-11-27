@@ -1,0 +1,45 @@
+%!TEX program = xelatex
+\documentclass{ctexbook}
+
+\setCJKmainfont{AR PL KaitiM GB}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{subfiles}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+}
+
+\newtcolorbox{mybox}{
+boxrule=0pt,
+sharp corners
+}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{example}[theorem]{Example}
+
+\title{\Huge{\texttt{chineseyard}}}
+\author{\Large{IcEevee}}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\subfile{chapters/25nov27}
+
+
+\end{document}
+
