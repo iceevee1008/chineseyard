@@ -1,3 +1,3 @@
-# Pre Number Theory
-The book is still in progress!
+# chineseyard
 
+Still in progress, idk after a year
